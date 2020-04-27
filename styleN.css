@@ -114,6 +114,7 @@ body {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
+  margin-left: 200px;
 }
 
 .skill-html {
@@ -125,13 +126,14 @@ body {
 }
 
 .level {
-  margin: 4px 0 16px;
+  margin: 4px 200px 16px;
   padding: 0;
   height: 14px;
   font-size: 0;
   background-color: #ffffff;
   border: 1px solid #86c3fa;
   border-radius: 8px;
+  width: 800px;
 }
 
 .level div {
