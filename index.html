@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>Sunnysite Портфолио</title>
     <link rel="stylesheet" href="styleN.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css"
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700Old+Standard+TT&display=swap&subset=cyrillic">
   </head>
-
+  
   <body>
     <header class="page-header">
       <div class="container">
       <a class="header-email" href="mailto:nastya.af@gmail.com">nastya.af@gmail.com </a>
-        <a class="header-phone" href="tel:+380968792144">tel/Viber +38 096 879 21 44 </a>
+        <a class="header-phone" href="tel:+380968792144">Viber +38 096 879 21 44 </a>
     </div>
     </header>
 
@@ -26,15 +27,15 @@
     <section class="intro">
       <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <figure class="user-image">
-        <img src="files/user2.jpg" width="384" height=auto alt=" MY Фотография">
-      </figure>
+      <div class="user-image">
+        <img src="files/user2.jpg" width="384"  alt=" MY Фотография">
+      </div>
       <h3>Пара слов о себе</h3>
       <p>Меня зовут Анастасия Шешеня. Имею высшее образование.</p>
       <h3>Чем могу быть Вам полезна</h3>
       <p>Занимаюсь версткой более 2-х лет, владею семантической разметкой HTML и CSS. 
-        Умею работать со спецификацией, чтобы правильно подбирать теги под задачу, 
-        определять правила вложенности тегов в друг друга, разбираться в причинах ошибок валидации.</p>
+        Умею работать со спецификацией,  
+        определять правила вложенности тегов, разбираться в причинах ошибок валидации.</p>
       </div>
       <div class="skills">
         <h3>Мои навыки</h3>
@@ -50,22 +51,21 @@
     <section class="portfolio">
       <div class="container">
       <h2 class="subheading">Мои работы</h2>
-            <figure class="project-image">
-        <img src="files/project.jpg" width="540" height=auto alt="Cайт отдыхыющей Мэри">
-      </figure>
-      <h3>Сайт отдыхающей Мэри</h3>
+           
+      <div class="portfolio-list"><div class="portfolio-item">
+      <h3 class="portfolio-sitename">Сайт отдыхающей Мэри</h3>
       <p>Небольшой лендинг о курсах для молодых котят.</p>
-      <a class="button" href="source/my_project1_mery/index.html">Открыть страницу</a>
-      <h3>Блог начинающего верстальщика</h3>
+      <a class="button" href="source/my_project1_mery/index.html">Открыть страницу</a></div>
+      <div class="portfolio-item"><h3 class="portfolio-sitename">Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
-      <a class="button" href="source/project_blog/index.html">Открыть страницу</a>
+      <a class="button" href="source/project_blog/index.html">Открыть страницу</a></div></div>
       </div>
     </section>
 
     <footer class="page-footer">
       <div class="container">
         <a class="footer-email" href="mailto:nastya.af@gmail.com">nastya.af@gmail.com </a>
-        <a class="footer-phone" href="tel:+380968792144">tel/Viber +38 096 879 21 44 </a>
+        <a class="footer-phone" href="tel:+380968792144">Viber +38 096 879 21 44 </a>
       </div>
     </footer>
   </body>
